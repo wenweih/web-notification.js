@@ -2,6 +2,7 @@
 
 .ns-box {
 	position: fixed;
+	top: 4rem;
 	background: rgba(42,45,50,0.85);
 	padding: 22px;
 	line-height: 1.4;
@@ -10,6 +11,7 @@
 	color: rgba(250,251,255,0.95);
 	font-size: 90%;
 	font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  
 }
 
 .ns-box.ns-show {
@@ -49,7 +51,7 @@
 	backface-visibility: hidden;
 }
 
-.ns-close:hover, 
+.ns-close:hover,
 .ns-close:focus {
 	outline: none;
 }
